@@ -184,7 +184,7 @@ export const createNotice = async (req, res) => {
     });
   } catch (error) {
     const errors = { backendError: String };
-    errors.backendError = error;
+    errors.backendError = error.message;
     res.status(500).json(errors);
   }
 };

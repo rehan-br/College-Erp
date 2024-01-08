@@ -3,6 +3,7 @@ import Test from "../models/test.js";
 import Student from "../models/student.js";
 import Subject from "../models/subject.js";
 import Marks from "../models/marks.js";
+import Feedback from "../models/feedback.js";
 import Attendence from "../models/attendance.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
